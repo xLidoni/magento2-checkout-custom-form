@@ -154,7 +154,7 @@ class InstallData implements InstallDataInterface
             ->addAttribute(
                 'order',
                 CustomFieldsInterface::CHECKOUT_GOODS_MARK,
-                ['type' => Table::TYPE_TEXT, 'length' => '255', 'nullable' => true, 'grid' => false]
+                ['type' => Table::TYPE_TEXT, 'length' => '7', 'nullable' => true, 'grid' => false]
             )
             ->addAttribute(
                 'order',
